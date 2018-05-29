@@ -41,7 +41,7 @@ else{
 
 
 let id=$("#movieid").val();
-let url=`http://www.omdbapi.com/?i=${id}&apikey=25053867`
+let url=`https://www.omdbapi.com/?i=${id}&apikey=25053867`
 
 
 
@@ -124,7 +124,7 @@ else{
 
 
 let title=$("#movietitle").val();
-let url=`http://www.omdbapi.com/?t=${title}&apikey=25053867`
+let url=`https://www.omdbapi.com/?t=${title}&apikey=25053867`
 
 
 
@@ -205,7 +205,7 @@ else if ($("#moviename").val()!="" && $("#movieyear").val()==""){
 
 
 let name=$("#moviename").val();
-let url=`http://www.omdbapi.com/?s=${name}&apikey=25053867`
+let url=`https://www.omdbapi.com/?s=${name}&apikey=25053867`
 
 
 
@@ -287,7 +287,7 @@ else if ($("#moviename").val()!="" && $("#movieyear").val()!=""){
 
 let name=$("#moviename").val();
 let year=$("#movieyear").val();
-let url=`http://www.omdbapi.com/?s=${name}&y=${year}&apikey=25053867`
+let url=`https://www.omdbapi.com/?s=${name}&y=${year}&apikey=25053867`
 
 
 
