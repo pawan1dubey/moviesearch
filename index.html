@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="index.js"></script>
+<link rel="stylesheet" href="index.css">
+<script src="jquery-3.3.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+
+<div class="container">
+<div id="topmost">
+SEARCH YOUR MOVIE
+</div>
+
+<form id="top" action="">
+  <input type="radio" name="criteria" value="id">By IMBD ID<br>
+  <input type="radio" name="criteria" value="title">By Title<br>
+  <input type="radio" name="criteria" value="year">By Name and Year of Release of the movie<br>
+</form>
+
+
+<div id="id" class="search">
+Enter the ID:<input type="text" id="movieid" class="userenter" placeholder="eg: tt123456"><br>
+<input type="button" id="mid" class="userclick" value="Search"><input type="button" class="reset" value="Reset"><br>
+<span id="e1"></span><br>
+</div>
+
+<div id="title" class="search">
+Enter the title of the movie:<input type="text" id="movietitle" class="userenter" placeholder="movie title here"><br>
+<input type="button" id="mtitle" class="userclick" value="Search"><input type="button" class="reset"value="Reset"><br>
+<span id="e2"></span><br>
+</div>
+
+<div id="year" class="search">
+<p>Movie name is mandatory</p>
+<p>Year of release is optional</p>
+Enter the name of the movie:<input type="text" id="moviename" class="userenter" placeholder="Name"><br>
+Enter the year in which the movie was released:<input type="text" id="movieyear" class="userenter" placeholder="Year of release"><br>
+<input type="button" id="myear" class="userclick" value="Search"><input type="button"  class="reset" value="Reset"><br><span id="e3"></span>
+</div>
+
+
+<table class="table">
+</table>
+
+
+</div>
+
+
+</body>
+
+
+</html>
